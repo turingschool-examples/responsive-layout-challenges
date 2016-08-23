@@ -22,29 +22,29 @@ Set up the following directory and file structure:
   - responsive-styles-b.css
 * one reset file
 
-In this exercise, we'll take a series of simple comps and recreate each locally. You will make the appropriate number of `<div>` tags with the div numbers indicated in the comps, give them a `<height>`, `<width>`, and `background-color` and then make them match the layout in the comp. Here's an example of what this might look like in your HTML and CSS, without any positioning or breakpoints applied:
+In this exercise, we'll take a series of simple comps and recreate each locally. You will make the appropriate number of semantic tags with the correct numbers indicated in the comps, give them a `<height>`, `<width>`, and `background-color` and then make them match the layout in the comp. Here's an example of what this might look like in your HTML and CSS, without any positioning or breakpoints applied:
 
-Your HTML:
+Your HTML (`div` tags are used for example only, use proper semantic tags):
 
 ```HTML
-<div class="div-a">
+<div class="content-a">
   a
 </div>
 
-<div class="div-b">
+<div class="content-b">
   b
 </div>
 ```
 Your CSS:
 
 ```CSS
-.div-a {
+.content-a {
   background-color: black;
   height: 100px;
   width: 100px;
 }
 
-.div-b {
+.content-b {
   background-color: gray;
   height: 100px;
   width: 100px;
