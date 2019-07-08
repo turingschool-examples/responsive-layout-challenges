@@ -11,7 +11,7 @@ As a front end developer, you will often be handed comps from a designer that yo
 
 ### Getting Started
 
-Set up the following directory and file structure:
+<!-- Set up the following directory and file structure:
 
 * Make a new directory named "responsive-layout-challenge" and inside of it put:
 * two html files
@@ -20,11 +20,14 @@ Set up the following directory and file structure:
 * two css files
   - responsive-styles-a.css
   - responsive-styles-b.css
-* one reset file
+* one reset file -->
 
-In this exercise, we'll take a series of simple comps and recreate each locally. You will make the appropriate number of semantic tags with the correct numbers indicated in the comps, give them a `<height>`, `<width>`, and `background-color` and then make them match the layout in the comp. Here's an example of what this might look like in your HTML and CSS, without any positioning or breakpoints applied:
+Clone down the repository, and `cd` into the directory `responsive-layout-challenge`. 
 
-Your HTML (`div` tags are used for example only, use proper semantic tags):
+In this exercise, we'll take a series of simple comps and recreate each locally. You will make the appropriate number of semantic tags with the correct numbers / content indicated in the comps, give them a `<height>`, `<width>`, and `background-color` and then make them match the layout in the comp.
+<!-- Here's an example of what this might look like in your HTML and CSS, without any positioning or breakpoints applied: -->
+
+<!-- Your HTML (`div` tags are used for example only, use proper semantic tags):
 
 ```HTML
 <div class="content-a">
@@ -49,7 +52,7 @@ Your CSS:
   height: 100px;
   width: 100px;
 }
-```
+``` -->
 
 ### The Comps
 
