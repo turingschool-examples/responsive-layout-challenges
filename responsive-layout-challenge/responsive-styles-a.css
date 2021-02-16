@@ -1,0 +1,51 @@
+header, footer {
+  background-color: grey;
+  height: 70px;
+}
+
+
+.a, .b, .c {
+  min-height: 300px;
+}
+
+.a {
+  background-color: red;
+}
+
+.b {
+  background-color: orange;
+}
+
+.c {
+  background-color: yellow;
+  min-height: 600px;
+}
+
+main {
+  display: flex;
+}
+
+.main-left {
+  width: 70%;
+}
+
+.main-right {
+  width: 30%;
+}
+
+/* tablet */
+@media screen and (max-width: 900px) {
+  .main-left, .main-right {
+    width: 50%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 500px) {
+  main {
+    display: block;
+  }
+  .main-left, .main-right {
+    width: 100%;
+  }
+}
